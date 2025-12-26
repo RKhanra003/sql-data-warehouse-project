@@ -2,7 +2,7 @@
 # Data Warehouse Project
 
 Welcome to the **Data Warehouse Project** repository! 🚀  
-This project demonstrates a comprehensive data warehousing solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering.
+This project demonstrates a comprehensive data warehousing solution, from building a data warehouse to generating actionable insights and creating a power bi dashboards for comprehensive analysis of sales trends, order summary, product profitability, and customer behavior.
 
 ---
 ## 🏗️ Data Architecture
@@ -22,6 +22,7 @@ This project involves:
 1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
+4. **Power Bi Dashboard**: Create Power Bi dashboards from fact and dimention tables.
 
 
 
@@ -46,6 +47,8 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ```
 data-warehouse-project/
 │
+├── dashboard/                          # Power bi dashboards create from the data models.
+│   
 ├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
 │
 ├── docs/                               # Project documentation and architecture details
